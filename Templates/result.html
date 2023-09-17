@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <style>
+        body {
+            background-color: lightblue;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .container {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            display: inline-block;
+            background-color: white;
+        }
+        .risk {
+            font-size: 24px;
+            font-weight: bold;
+            color: darkblue;
+        }
+        .summary {
+            font-size: 18px;
+            font-weight: normal;
+            color: darkblue;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Result</h1>
+    <div class="container">
+        <img src="{{ image_path }}" alt="Uploaded Image">
+        <p class="risk">Risk of Malignancy: {{ risk_percentage }}%</p>
+        <p class="summary">{{ summary }}</p>
+    </div>
+
+    <a href="/">Go back</a>
+
+</body>
+</html>
