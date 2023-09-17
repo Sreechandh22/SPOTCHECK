@@ -1,1 +1,1 @@
-# HackMIT
+# SkinCancer Detection Algorithm
