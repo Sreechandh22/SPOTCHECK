@@ -79,21 +79,21 @@ SpotCheck is a web application that detects early-stage skin cancer using machin
 
 SpotCheck/
 ├── Templates/
-│ ├── index.html
-│ ├── result.html
+│   ├── index.html
+│   ├── result.html
 ├── code/
-│ ├── Anomaly_Detection.py
-│ ├── Code_Generation.py
-│ ├── Data_Visualization.py
-│ ├── GAN_model.py
-│ ├── GPT_Analysis.py
-│ ├── User_Interaction.py
-│ ├── Visual_Predict.py
-│ ├── app.py
-│ ├── convert_to_tflite.py
-│ ├── hack1.py
-│ ├── hack2.py
-│ ├── kaggle.json
+│   ├── Anomaly_Detection.py
+│   ├── Code_Generation.py
+│   ├── Data_Visualization.py
+│   ├── GAN_model.py
+│   ├── GPT_Analysis.py
+│   ├── User_Interaction.py
+│   ├── Visual_Predict.py
+│   ├── app.py
+│   ├── convert_to_tflite.py
+│   ├── hack1.py
+│   ├── hack2.py
+│   ├── kaggle.json
 ├── skin_cancer_model_v2.keras
 ├── .gitignore
 ├── LICENSE
