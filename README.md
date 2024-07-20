@@ -37,7 +37,7 @@ SpotCheck is a web application that detects early-stage skin cancer using machin
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/yourusername/SpotCheck.git
+    git clone https://github.com/Sreechandh22/SPOTCHECK.git
     cd SpotCheck
     ```
 
@@ -77,28 +77,28 @@ SpotCheck is a web application that detects early-stage skin cancer using machin
 
 ## File Structure
 
-SpotCheck/
-├── Templates/
-│   ├── index.html
-│   ├── result.html
-├── code/
-│   ├── Anomaly_Detection.py
-│   ├── Code_Generation.py
-│   ├── Data_Visualization.py
-│   ├── GAN_model.py
-│   ├── GPT_Analysis.py
-│   ├── User_Interaction.py
-│   ├── Visual_Predict.py
-│   ├── app.py
-│   ├── convert_to_tflite.py
-│   ├── hack1.py
-│   ├── hack2.py
-│   ├── kaggle.json
-├── skin_cancer_model_v2.keras
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
+    SpotCheck/
+    ├── Templates/
+    │   ├── index.html
+    │   ├── result.html
+    ├── code/
+    │   ├── Anomaly_Detection.py
+    │   ├── Code_Generation.py
+    │   ├── Data_Visualization.py
+    │   ├── GAN_model.py
+    │   ├── GPT_Analysis.py
+    │   ├── User_Interaction.py
+    │   ├── Visual_Predict.py
+    │   ├── app.py
+    │   ├── convert_to_tflite.py
+    │   ├── hack1.py
+    │   ├── hack2.py
+    │   ├── kaggle.json
+    ├── skin_cancer_model_v2.keras
+    ├── .gitignore
+    ├── LICENSE
+    ├── README.md
+    └── requirements.txt
 
 
 - **Templates/**: HTML templates for rendering web pages.
